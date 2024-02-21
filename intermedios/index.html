@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicios Intermedios</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="fijo">
+      <h1>Ejercicios Intermedios</h1>
+    </header>
+    <main>
+      <hr />
+      <h2>
+        Diseño de Cuadrícula Responsivo: Crea una cuadrícula de tres columnas
+        que se convierta en una cuadrícula de dos columnas cuando el ancho de la
+        pantalla sea inferior a 768px y una sola columna cuando sea inferior a
+        480px.
+      </h2>
+
+      <div class="cuadricula">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+      </div>
+
+      <hr />
+      <h2>
+        Menú de Navegación Desplegable: Diseña un menú de navegación horizontal
+        que se convierta en un menú desplegable vertical cuando el ancho de la
+        pantalla sea inferior a 600px.
+      </h2>
+      <ul class="menu">
+        <li class="menu-item"><a href="#1">Elemento 1</a></li>
+        <li class="menu-item"><a href="#2">Elemento 2</a></li>
+        <li class="menu-item"><a href="#3">Elemento 3</a></li>
+        <li class="menu-item"><a href="#4">Elemento 4</a></li>
+        <li class="menu-item"><a href="#5">Elemento 5</a></li>
+      </ul>
+      <hr />
+      <h2>
+        Imagen de Fondo Dinámica: Usa una Media Query para cambiar la imagen de
+        fondo de una sección cuando el ancho de la pantalla sea superior a
+        1200px y otra imagen cuando sea inferior a 1200px.
+      </h2>
+
+      <div class="contenedor-imagen"></div>
+      <hr />
+      <h2>
+        Tipografía Escalable: Escala el tamaño de fuente de todo el documento de
+        manera proporcional al ancho de la pantalla, manteniendo un tamaño de
+        fuente mínimo y máximo.
+      </h2>
+      <p class="texto-escalable">Parrafo de muestra de texto escalable</p>
+      <hr />
+      <h2>
+        Botones Animados: Crea un botón que cambie de color y se desplace hacia
+        la derecha cuando se coloque el mouse sobre él, pero solo cuando el
+        dispositivo tenga una relación de píxeles físicos a píxeles CSS
+        (device-pixel-ratio) superior a 2.
+      </h2>
+      <button class="animado">Boton</button>
+      <hr />
+      <h2>
+        Slider de Imágenes Automático: Diseña un slider de imágenes que se
+        desplace automáticamente a la siguiente imagen cada 5 segundos, pero que
+        se detenga cuando el ancho de la pantalla sea inferior a 768px.
+      </h2>
+      <div class="slider">
+        <ul>
+          <li><img src="./mario1.png" alt="" /></li>
+          <li><img src="./mario2.jpeg" alt="" /></li>
+          <li><img src="./mario3.jpg" alt="" /></li>
+          <li><img src="./mario4.png" alt="" /></li>
+        </ul>
+      </div>
+      <hr />
+      <h2>
+        Encabezado Fijo: Crea un encabezado que se vuelva fijo en la parte
+        superior de la pantalla después de hacer scroll de 200px, pero solo
+        cuando el dispositivo esté en orientación vertical (portrait).
+      </h2>
+      <hr />
+      <h2>
+        Elementos Emergentes Dinámicos: Diseña un elemento emergente que se
+        muestre en la esquina inferior derecha de la pantalla cuando el ancho de
+        la pantalla sea mayor a 1200px, y en la esquina superior izquierda
+        cuando sea menor a 1200px.
+      </h2>
+      <div class="emergente">Mensaje emergente</div>
+      <hr />
+      <h2>
+        Estilo de Enlaces según Dispositivo: Aplica estilos específicos a los
+        enlaces (&lt;a&gt;) que contengan la palabra "info" cuando el
+        dispositivo sea una impresora (print), pero estilos diferentes cuando
+        sea una pantalla (screen).
+      </h2>
+      <ul>
+        <li><a href="#1">Elemento 1</a></li>
+        <li><a href="#2">Elemento 2</a></li>
+        <li><a href="#3">Elemento 3</a></li>
+        <li class="info"><a href="#4">Info</a></li>
+      </ul>
+      <hr />
+      <h2>
+        Animación de Rotación en Dispositivos de Pantalla Táctil: Crea un
+        elemento que rote 45 grados al hacer clic en él solo en dispositivos de
+        pantalla táctil (pointer: coarse).
+      </h2>
+      <div class="rotar">
+        Elemento que rota al hacer click sobre el solo en dispositivos con pantalla tactil
+      </div>
+    </main>
+  </body>
+</html>

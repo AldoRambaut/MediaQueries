@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basicos Media Queries</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ejericios basicos media query</h1>
+    </header>
+    <main>
+        <hr>
+        <h2>Crea una Media Query que aplique un fondo de color diferente cuando el ancho de la pantalla sea menor o igual a 480px.</h2>
+        <hr>
+        <h2>Utiliza una Media Query para cambiar el tamaño de fuente a 18px cuando el dispositivo esté en orientación horizontal (landscape).</h2>
+        <hr>
+        <h2>Ajusta los márgenes de un elemento cuando la resolución de la pantalla sea superior a 1200px de ancho.</h2>
+        <div class="caja">
+        <p>Cuando la resolucion de pantalla es mayor a 1200px el borde de esta caja pone 20px de margen a todos los lados</p>
+        </div>
+        <hr>
+        <h2>Oculta un elemento específico cuando el ancho de la pantalla sea menor o igual a 768px.</h2>
+        <div class="ocultar">
+            <p>Esta caja se ocultara cuando el ancho de la ventana sea menor o igual a 768px</p>
+        </div>
+        <hr>
+        <h2>Cambia el color de fondo de un encabezado (&lt;header&gt;) cuando el dispositivo tenga una relación de píxeles físicos a píxeles CSS (device-pixel-ratio) de 2.</h2>
+        <hr>
+        <h2>Hace que un menú de navegación (&lt;nav&gt;) sea visible solo en dispositivos con una resolución mínima de 1024x768.</h2>
+        <nav class="ocultar-nav">
+            <ul>
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+                <li>Elemento 3</li>
+                <li>Elemento 4</li>
+            </ul>
+        </nav>
+        <hr>
+        <h2>Ajusta el tamaño de texto de un párrafo (&lt;p&gt;) cuando el ancho de la pantalla esté entre 600px y 900px.</h2>
+        <p id="texto-parrafo">Parrafo de muestra de cambio de tamaño de fuente al cambiar el ancho de la pantalla</p>
+        <hr>
+        <h2>Aplica un borde alrededor de un elemento (&lt;div&gt;) solo en dispositivos de impresión.</h2>
+        <div class="impresion">Div de muestra para mostrar marco en dispositivos de impresion</div>
+        <hr>
+        <h2>Utiliza una Media Query para cambiar el color de texto de un botón (&lt;button&gt;) cuando el ancho de la pantalla sea mayor que 1200px.</h2>
+        <button class="cambia-color">Boton</button>
+        <hr>
+        <h2>Oculta una sección completa de la página cuando el dispositivo se imprime en papel.</h2>
+        <section class="no-mostrar">
+            <h4>Titulo de seccion que no se muestra al imprimir</h4>
+            <p>Parrafo de seccion que no se va a mostrar</p>
+        </section>
+    </main>
+    
+</body>
+</html>
